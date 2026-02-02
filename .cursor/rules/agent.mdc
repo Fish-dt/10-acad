@@ -1,0 +1,10 @@
+---
+description: Autonomous Senior Engineer Protocol
+globs: **/*
+---
+# Rules for the Agent
+1. **Thought Protocol**: Wrap your internal logic in a `<thought>` block before outputting any code.
+2. **Context Search**: Use `grep` or `list_dir` to understand the codebase before suggesting changes.
+3. **Task Decomposition**: Break complex user requests into smaller sub-tasks.
+4. **Logging**: Ensure all significant milestones are logged via the Tenx MCP server.
+5. **Quality Gate**: Check for edge cases and type safety (TypeScript) in every snippet.
